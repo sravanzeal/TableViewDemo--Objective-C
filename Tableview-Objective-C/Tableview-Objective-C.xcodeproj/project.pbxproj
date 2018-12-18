@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E18817B21C8EC01008BFC06 /* jenkins.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18817A21C8EC01008BFC06 /* jenkins.m */; };
 		4EDCEA0521C10B7300465DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCEA0421C10B7300465DE6 /* AppDelegate.m */; };
 		4EDCEA0821C10B7300465DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCEA0721C10B7300465DE6 /* ViewController.m */; };
 		4EDCEA0B21C10B7300465DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDCEA0921C10B7300465DE6 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E18817A21C8EC01008BFC06 /* jenkins.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jenkins.m; sourceTree = "<group>"; };
 		4EDCEA0021C10B7200465DE6 /* Tableview-Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tableview-Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDCEA0321C10B7300465DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EDCEA0421C10B7300465DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		4EDCE9F721C10B7100465DE6 = {
 			isa = PBXGroup;
 			children = (
+				4E18817A21C8EC01008BFC06 /* jenkins.m */,
 				4EDCEA0221C10B7200465DE6 /* Tableview-Objective-C */,
 				4EDCEA0121C10B7200465DE6 /* Products */,
 			);
@@ -154,6 +157,7 @@
 				4EDCEA0821C10B7300465DE6 /* ViewController.m in Sources */,
 				4EDCEA1321C10B8F00465DE6 /* main.m in Sources */,
 				4EDCEA0521C10B7300465DE6 /* AppDelegate.m in Sources */,
+				4E18817B21C8EC01008BFC06 /* jenkins.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8W6V3FG4X;
 				INFOPLIST_FILE = "Tableview-Objective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8W6V3FG4X;
 				INFOPLIST_FILE = "Tableview-Objective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
